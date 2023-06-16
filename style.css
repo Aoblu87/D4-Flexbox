@@ -34,7 +34,7 @@ body{
 }
 #logo-medium img{
     margin: 0%;
-    padding: 13%;
+    padding: 11%;
     width: 22%;
 }
 .topbar-icon{
@@ -124,7 +124,7 @@ body{
 #nav-article-container{
     margin: 0%;
     padding: 0%;
-    width: 80%;
+    width: 97%;
     height: 14vh;
     display: flex;
     flex-direction: row;
@@ -137,7 +137,7 @@ body{
 #nav-article{
     margin: 0%;
     padding: 0%;
-    width: 84%;
+    width: 89%;
     height: 14vh;
     border-bottom: #EFEFEF solid 1px;
     display: flex;
@@ -171,21 +171,24 @@ body{
 /*ARTICOLI*/
 .article-container{
     margin: 0%;
-    padding: 0%;
+    padding: 4%;
     width: 100%;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 
 }
 .article{
     margin: 0%;
     padding: 0%;
-    width: 60%;
-    height: 22em;
+    width: 40%;
+    height: 11em;
 
 }
 .author{
     margin: 0%;
     padding: 0%;
+    font-weight: bold;
 }
 .img-icon{
     margin: 0%;
@@ -193,17 +196,34 @@ body{
     display: flex;
     align-items: center;
 }
+.img-icon img{
+    width:2em;
+}
 .title{
     margin: 0%;
     padding: 0%;
+    font-size: 8pt;
 }
 .text{
     margin: 0%;
     padding: 0%;
+    color: #A2A2A2;
+}
+.text-bottom-container{
+    margin: 0%;
+    padding:0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:30em;
+
 }
 .text-bottom{
     margin: 0%;
     padding: 0%;
+    display: flex;
+    font-size: 9pt;
+    color: #A2A2A2;
 }
 .date{
     margin: 0%;
@@ -214,6 +234,10 @@ body{
     padding: 0%;
 
 }
+.dot i{
+    font-size: 5px;
+    opacity: 0.6;
+}
 .time{
     margin: 0%;
     padding: 0%;
@@ -221,6 +245,10 @@ body{
 .topic{
     margin: 0%;
     padding: 0%;
+    background-color:#EFEFEF;
+    border-radius: 50%;
+    width: 40px;
+    height: 20px;
 }
 .extra{
     margin: 0%;
@@ -229,6 +257,9 @@ body{
 .icon-text{
     margin: 0%;
     padding: 0%;
+    display:flex;
+    align-items: center;
+
 }
 #favorites{
     margin: 0%;
@@ -241,11 +272,10 @@ body{
 .img-text{
     margin: 0%;
     padding: 0%;
-    width: 40%;
-    height: auto;
+  
 }
 .img-text img{
-    width:20em;
+    width:15em;
 }
 
 
