@@ -437,7 +437,7 @@ body{
     padding: 0%;
     display: flex;
     align-items: center;
-    width: 13em;
+    width: 22em;
 }
 .photo{
     margin: 0%;
@@ -448,18 +448,23 @@ body{
 }
 .info-person{
     margin: 0%;
-    padding: 0%;
+    padding: 4%;
+    width: 14em;
+    height: 8vh
 }
 .name{
     margin: 0%;
     padding: 0%;
 }
 .name h4{
-    font-size: 15pt;
+    margin: 0%;
+    padding: 0%;
+    font-size: 14pt;
 }
 .profession{
     margin: 0%;
     padding: 0%;
+    color: #A2A2A2;
 }
 .profession p{
     font-size: 10pt;
@@ -469,6 +474,9 @@ body{
     padding: 0%;
 }
 .follow-button{
+    border-radius: 60px;
     margin: 0%;
     padding: 0%;
+    width: 5em;
+    height: 5vh;
 }
