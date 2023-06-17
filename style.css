@@ -261,14 +261,7 @@ body{
     align-items: center;
 
 }
-#favorites{
-    margin: 0%;
-    padding: 0%;
-}
-#option{
-    margin: 0%;
-    padding: 0%;
-}
+
 .img-text{
     margin: 0%;
     padding: 0%;
@@ -278,4 +271,204 @@ body{
     width:15em;
 }
 
+/*SIDEBAR*/
+.social-container{
+    margin: 0%;
+    padding: 11% 11% 0% 11%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.social-icon{
+    margin: 0%;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+}
+#medium-lg{
+    margin: 0%;
+    padding: 0%;
+    width: 3em;
+}
+.social-icon i{
+    margin: 0%;
+    padding: 0%;
+    opacity: 0.3;
+}
+#twitter-lg{
+    margin: 0%;
+    padding: 0%;
+    width: 2em;
+}
+.social-text{
+    margin: 0%;
+    padding: 6%;
+    text-align: center;
+    font-size: 14pt;
+
+}
+.social-text p{
+    margin: 0%;
+    padding: 0%;
+}
+.social-button{
+    margin: 0%;
+    padding:2%;
+}
+.social-button button{
+    width: 17em;
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+    border-radius: 42px;
+    height: 7vh;
+}
+#small-twitter-lg{
+    margin: 0%;
+    padding: 0%;
+    width: 2.5em;
+}
+.social-link{
+    margin: 0%;
+    padding: 7%;
+    
+}
+.social-link a{
+    margin: 0%;
+    padding: 0%;
+    color: #A2A2A2;
+}
+
+/*LINEA*/
+#line{
+    margin: 0%;
+    padding: 0%;
+    width: 68%;
+    border-bottom: #EFEFEF solid 2px;
+
+}
+#line-container{
+    display: flex;
+    justify-content: center;
+}
+/*RECOMMENDED TOPICS*/
+#recommended-topics-container{
+    margin: 0%;
+    padding: 2% 0% 0% 7%;
+    width: 22em;
+}
+#title-recommended{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+#title-recommended h3{
+    font-weight: 600;
+
+}
+#categories-topics{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.topics{
+    margin: 2%;
+    padding: 3%;
+    background-color: #EFEFEF;
+    border-radius: 20px;
+    text-align: center;
+    height: auto;
+
+}
+#technology{
+    
+    width: 6em;
+
+}
+#money{
+    
+    width: 4em;
+
+}
+#business{
+   
+    width: 5em;
+
+}
+#productivity{
+    
+    width: 7em;
+
+}
+#psychology{
+    
+    width: 7em;
+
+}
+#mindfulness{
+    
+    width: 7em;
+
+}
+#art{
+    
+    width: 3em;
+
+}
+
+/*HOW TO FOLLOW SECTION*/
+#follow-container{
+    margin: 2%;
+    padding: 3%;
+    width: 22em;
+}
+#title-follow{
+    margin: 0%;
+    padding: 0%;
+}
+#title-follow h3{
+    font-weight: 600;
+
+}
+.person{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    width: 13em;
+}
+.photo{
+    margin: 0%;
+    padding: 0%;
+}
+.photo img{
+    width: 4em;
+}
+.info-person{
+    margin: 0%;
+    padding: 0%;
+}
+.name{
+    margin: 0%;
+    padding: 0%;
+}
+.name h4{
+    font-size: 15pt;
+}
+.profession{
+    margin: 0%;
+    padding: 0%;
+}
+.profession p{
+    font-size: 10pt;
+}
+.follow-button-container{
+    margin: 0%;
+    padding: 0%;
+}
+.follow-button{
+    margin: 0%;
+    padding: 0%;
+}
