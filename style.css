@@ -540,6 +540,7 @@ body{
     display: flex;
     font-size: 9pt;
     color: #A2A2A2;
+    width: 10em;
 }
 .date-saved{
     margin: 0%;
@@ -549,14 +550,18 @@ body{
     margin: 0%;
     padding: 0%;
 
+    
+
 }
 .star i{
     font-size: 5px;
     opacity: 0.6;
+
 }
 .time-saved{
     margin: 0%;
     padding: 0%;
+
 }
 #see-all{
     font-size: 10pt;
