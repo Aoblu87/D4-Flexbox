@@ -119,7 +119,7 @@ body{
 
 #content{
     margin: 0%;
-    padding: 0%;
+    padding: 3%;
     background-color: #FAFAFA;
     width: 93em;
     height: auto;
@@ -142,6 +142,7 @@ body{
 
 }
 #nav-article{
+    position: relative;
     margin: 0%;
     padding: 0%;
     width: 89%;
@@ -171,9 +172,20 @@ body{
 #recommended{
     font-weight: bolder;
     font-weight: 900;
-    border-bottom: black solid 2px;
 
 }
+
+    #recommended::after {
+        content: '';
+        position: absolute;
+        inset: 96px 0px 0 100px;
+        width: 10.2rem;
+        height: 0.1rem;
+        background-color: black;
+    }
+
+
+
 
 /*ARTICOLI*/
 .article-container{
@@ -229,6 +241,7 @@ body{
     margin: 0%;
     padding: 0%;
     display: flex;
+    align-items: end;
     font-size: 9pt;
     color: #A2A2A2;
 }
@@ -263,8 +276,10 @@ body{
 }
 .icon-text{
     margin: 0%;
-    padding: 0%;
+    padding: 0.5rem;
+    width: 2.5rem;
     display:flex;
+    justify-content: center;
     align-items: center;
 
 }
@@ -275,13 +290,13 @@ body{
   
 }
 .img-text img{
-    width:15em;
+    width:16rem;
 }
 
 /*SIDEBAR*/
 .social-container{
     margin: 0%;
-    padding: 11% 11% 0% 11%;
+    padding: 21% 11% 0% 11%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -323,13 +338,16 @@ body{
     margin: 0%;
     padding:2%;
 }
-.social-button button{
+.social-button button {
     width: 17em;
     margin: 0%;
     padding: 0%;
     background-color: white;
     border-radius: 42px;
     height: 7vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 #small-twitter-lg{
     margin: 0%;
