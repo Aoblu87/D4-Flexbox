@@ -1,4 +1,4 @@
-# M1 Intro to Web Development [Epicode](epicode.com): Exercise 4 🚀👩‍💻
+# M1 Intro to Web Development [Epicode](https://epicode.com/it/): Exercise 4 🚀👩‍💻
 
 ## Old-School Medium Homepage Recreation 📜✨
 
